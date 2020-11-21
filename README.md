@@ -20,11 +20,23 @@ Steps taken to build the landing page:
 -------------------------------------
 1) Add aditional section in html file to have at least four sections in the page.
 
-    ->using the section tag to add a new section in the html and set it's "nav_data" attribute to "section 4" .
+    -> using the section tag to add a new section in the html file and set it's "nav_data" attribute to "section 4" .
 
-2) Build the navigation menue dynamically accroding to number of sections that exist in the page.
+2) Build the navigation menu dynamically accroding to number of sections that exist in the page.
 
-3) Add scroll into section functionality to the links in the navigation menue.
+    ->Using .querySelectorAll() function to select all sections by tag name
+    
+    ->Using for..of loop to iterate through all the sections
+    
+    ->inside the loop create:
+    
+         1. list "li"
+         
+         2. link "a"
+         
+         3. textcontent to the link
+
+3) Add scroll into section functionality to the links in the navigation menu.
 
 4) When the section in the viewport ,this section is heiglighted and also the link corresponding to it.
 
