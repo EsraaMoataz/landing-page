@@ -46,11 +46,12 @@ Steps taken to build the landing page:
          Note: You should prevent the default target of the link by applying.preventDefault() method to the link.
        
 
-3) Add scroll into section functionality to the links in the navigation menu.
 
-4) When the section in the viewport ,this section is heiglighted and also the link corresponding to it.
+3) When the section in the viewport ,this section is heiglighted and also the link corresponding to it.
 
-5) Add a scroll to top button.
+   -> Add event listner to the window which the listner of this event is a function called "window_scrolling"
+   ->Inside this function
+4) Add a scroll to top button.
 
 
 
