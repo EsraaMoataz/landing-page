@@ -38,8 +38,10 @@ Steps taken to build the landing page:
          
          3. textcontent to the link
          
-    2)Add event listner to the link that when the link is clicked ,it scrolls into the corresponding section and also add "your-active-class" active class to this 
+    2) Add event listner to the link that when the link is clicked ,it scrolls into the corresponding section and also add class "your-active-class"  to this 
     section and that link.
+    
+    Note: You should prevent the default target of the link by using .preventDefault() method to the link.
        
 
 3) Add scroll into section functionality to the links in the navigation menu.
