@@ -22,5 +22,7 @@ Steps taken to build the landing page:
 
 2) Build the navigation menue dynamically accroding to number of sections that exist in the page.
 
-3) Add scroll into section functionality to the links in the navigation meune.
+3) Add scroll into section functionality to the links in the navigation menue.
+
+4) When the section in the view port ,this section is heiglighted and also the link corresponding to it.
 
