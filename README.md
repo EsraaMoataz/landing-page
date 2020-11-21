@@ -15,3 +15,12 @@ Project files:
    ->styles.css
    
    ->app.js
+   
+Steps taken to build the landing page:
+-------------------------------------
+1) Add aditional section in html file to have at least four sections in the page.
+
+2) Build the navigation menue dynamically accroding to number of sections that exist in the page.
+
+3)
+
