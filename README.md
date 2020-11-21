@@ -47,10 +47,24 @@ Steps taken to build the landing page:
        
 
 
-3) When the section in the viewport ,this section is heiglighted and also the link corresponding to it.
+3) When the section is in the viewport ,this section is highlighted and also the link corresponding to it.
 
    -> Add event listner to the window which the listner of this event is a function called "window_scrolling"
-   ->Inside this function
+   
+   -> Inside this function:
+   
+         1. check if there is no scrolling in the page using condition "document.documentElement.scrollTop==0 ",clear active class from all sections and all links .
+         
+         2. Using for..of loop to iterate through all the sections to:
+         
+               >> get boundry of each section using method ".getBoundingClientRect()"
+               
+               >> and check "if(top_section>0 && bottom_section<window.innerHeight)" ,add class"your-active-class"  to this 
+                 section and that link.
+   
+         
+   
+         
 4) Add a scroll to top button.
 
 
