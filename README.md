@@ -62,10 +62,16 @@ Steps taken to build the landing page:
                >> and check "if(top_section>0 && bottom_section<window.innerHeight)" ,add class"your-active-class"  to this 
                  section and that link.
    
-         
-   
+          
          
 4) Add a scroll to top button.
+
+      -> Add button in html file with id='top_button'
+      
+      -> Add event listner to this button when click to it ,go to the top of the page.
+      
+            button.addEventListener('click',function(){
+	         document.documentElement.scrollTop=0;});
 
 
 
