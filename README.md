@@ -28,13 +28,18 @@ Steps taken to build the landing page:
     
     ->Using for..of loop to iterate through all the sections
     
-    ->inside the loop create:
+    ->inside the loop:
+    
+      1)create:
     
          1. list "li"
          
          2. link "a"
          
          3. textcontent to the link
+         
+      2)
+       
 
 3) Add scroll into section functionality to the links in the navigation menu.
 
