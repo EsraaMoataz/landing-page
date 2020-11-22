@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1 id='esraa'>News For Today</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Health" >
+      <div class="landing__container">
+        <h2>Egypt’s PM warns of ‘dangerous’ second wave of COVID-19</h2>
+        <p>CAIRO: The Egyptian government on Friday warned the country to brace itself for a second wave of the coronavirus disease (COVID-19) as the number of new cases continued to rise.
+        Prime Minister Mostafa Madbouly said citizens needed to adhere to health and safety measures and take all necessary precautions to help combat the spread of the virus.
+        And the premier urged relevant authorities to strictly enforce rules in workplaces and on production sites in order to contain the outbreak. </p>
+        <p>He pointed out that a second wave of the virus, which had already hit a number of countries around the world, appeared to be more dangerous than the first one.</p>
+      </div>
+    </section>
+
+    <section id="section2" data-nav="Sports">
+      <div class="landing__container">
+        <h2>Egypt’s Minister of Sports looks into financial inspection reports of clubs, Olympic Committee</h2>
+        <p>he financial and administrative inspection committees assigned by the Ministry of Youth and Sports have completed their examination of the Egyptian Olympic Committee, and some sports federations and clubs. The final reports were submitted to the Ministry of Sports for review.
+        The inspection committees have spotted several financial and administrative violations in different entities and they were referred to the legal affairs department at the Ministry.</p>
+        
+      </div>
+    </section>
+
+    <section id="section3" data-nav="Education">
+      <div class="landing__container">
+        <h2>France to support Egypt in developing French language education: France Ambassador</h2>
+        <p>France is keen to provide full support to Egypt’s Ministry of Education in developing French language learning in the country’s schools, according France’s Ambassador to Cairo Stéphane Romatet.
+
+        During a meeting with Egypt’s Minister of Education Tarek Shawky, on Tuesday, Romatet praised the ministry’s efforts in developing the country’s educational process.</p>
+      </div>
+    </section>
+
+    <section id="section4" data-nav="Weather">
+      <div class="landing__container">
+        <h2>Egypt's PM urges preparations for upcoming wave of inclement weather</h2>
+        <p>On Sunday, Egypt's Meteorological Authority (EMA) forecast a six-day wave of unstable weather starting Tuesday, with a drop in temperatures ranging from four to five degrees Celsius and rainfall as of Thursday</p>
+        <p>Egypt's Prime Minister Mostafa Madbouly called for raising preparation levels to deal with the anticipated wave of unstable weather across the country, a cabinet statement read on Tuesday.</p>
+      </div>
+    </section>
+
+    <button id='top_button' title='Go to top'>Top</button>
+    
+
+  </main>
+  <footer class="page__footer">
+
+    <p>&copy Udacity</p>
+  </footer>
+<script src='js\app.js' type="text/javascript"></script>
+
+</body>
+</html>
