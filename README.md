@@ -71,7 +71,7 @@ Steps taken to build the landing page:
       -> Add event listner to this button when click to it ,go to the top of the page.
       
             button.addEventListener('click',function(){
-	         document.documentElement.scrollTop=0;});
+	    document.documentElement.scrollTop=0;});
 
 
 
